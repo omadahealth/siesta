@@ -17,10 +17,10 @@
         {
         didSet
             {
-            
+
             UIApplication.shared.isNetworkActivityIndicatorVisible =
                 requestsInProgress > 0
-            
+
             }
         }
 
